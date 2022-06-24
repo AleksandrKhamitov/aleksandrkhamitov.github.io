@@ -1,2 +1,2 @@
-# AleksandrKhamitov.github.io
+# aleksandrkhamitov.github.io
 my hosting
