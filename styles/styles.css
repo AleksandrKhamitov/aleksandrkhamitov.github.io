@@ -1,0 +1,176 @@
+/* navbar */
+
+.navbar {
+	background-color: #306657;
+}
+
+.navbar-toggler {
+ border-color: white !important;
+ color: white !important;
+}
+
+.navbar-toggler-icon {
+	background-color: white;
+	border-color: white !important;
+	color: white !important;
+}
+
+.nav-link:hover {
+	background-color: white;
+	color: #306657;
+}
+
+nav .navbar-nav li a {
+  color: white;
+  }
+
+.navbar-custom {
+    margin-bottom: 0;
+    font-family: Helvetica, sans-serif;
+}
+
+.active {
+	color: white;
+}
+
+/* sections */
+
+.header {
+	width: 100%;
+	padding-top: 85px;
+	padding-bottom: 50px;
+}
+
+.contact {
+	background-color: #B4EADB;;
+	padding-left: 40px;
+	width: 100%;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.skills {
+	width: 100%;
+	padding-left: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.education {
+	background-color: #B4EADB;;
+	width: 100%;
+	padding-left: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.certifications {
+	width: 100%;
+	padding-left: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+
+.hobbies {
+	background-color: #B4EADB;;
+	width: 100%;
+	padding-left: 40px;
+	padding-top: 50px;
+	padding-bottom: 50px;
+}
+/*Only h1 and h3 inside of class header */
+.header < h1 {
+	color: #306657;
+}
+
+/* For name of sections */
+.custom-colored {
+	color: #306657;
+	display: inline-block;
+	margin-top: 20px;
+	font-family: Helvetica, sans-serif;
+	font-size: 32px;
+}
+
+.link {
+    color: #306657;
+    text-decoration: none;
+}
+
+h1 {
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+
+p {
+	color: #306657;
+	font-size: 17px;
+}
+
+li {
+	color: #306657;
+	font-size: 17px;
+}
+
+.big {
+	font-size: 60px;
+	color: #306657;
+	display: inline-block;
+	margin-top: 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+.meddium {
+	font-size: 25px;
+	color: #306657;
+	display: inline-block;
+	margin-top: 20px;
+	font-family: Helvetica, sans-serif;
+}
+
+.myPhoto {
+	width: 200px;
+}
+
+/***adaptability***/
+@media screen and (max-width: 991px) {
+
+.header {
+	width: 100%;
+	padding-top: 85px;
+}
+
+.big {
+	font-size: 40px;
+}
+
+.meddium {
+	font-size: 18px;
+}
+
+.myPhoto {
+	width: 180px;
+}
+
+.custom-colored {
+	font-size: 24px;
+}
+
+p {
+	font-size: 16px;
+}
+
+}
+
+/***adaptability***/
+@media screen and (max-width: 767px) {
+
+.myPhoto {
+	margin: 10px auto 20px;
+    display: block;
+}
+
+.col-sm-12 {
+	text-align: center;
+}
+}
